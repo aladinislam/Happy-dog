@@ -1,0 +1,38 @@
+
+#box{
+    margin: 50px 400px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+ .me {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+ .me {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: #eb5c0a;  
+       font-size: 20px;       
+       font-weight: bold;   
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+       margin-left: 550px;
+
+     }
+.me:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: rgb(8, 8, 8);
+       text-decoration: none;
+     }
+
+     @media screen and (max-width:750px){
+        
+         body{
+             color: aqua;
+         }
+     }
+    
